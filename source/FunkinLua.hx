@@ -67,7 +67,7 @@ class FunkinLua {
 			return;
 		}
 		scriptName = script;
-		trace('Lua file loaded succesfully:' + script);
+		trace('Lua file loaded successfully:' + script);
 
 		#if (haxe >= "4.0.0")
 		accessedProps = new Map();
